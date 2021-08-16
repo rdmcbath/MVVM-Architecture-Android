@@ -41,5 +41,4 @@ class MainAdapter(
     fun addData(list: List<User>) {
         users.addAll(list)
     }
-
 }

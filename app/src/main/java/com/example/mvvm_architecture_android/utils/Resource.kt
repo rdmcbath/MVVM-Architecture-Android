@@ -1,6 +1,5 @@
 package com.example.mvvm_architecture_android.utils
 
-
 /*utility class that will be responsible to communicate the current state of Network Call to the UI Layer*/
 
 data class Resource<out T>(val status: Status, val data: T?, val message: String?) {

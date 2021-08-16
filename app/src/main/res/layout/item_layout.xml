@@ -13,7 +13,8 @@
         android:padding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/avatar_backup"/>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textViewUserName"
@@ -26,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageViewAvatar"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Becca" />
+        tools:text="Rebecca McBath" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textViewUserEmail"
@@ -35,6 +36,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textViewUserName"
         app:layout_constraintTop_toBottomOf="@+id/textViewUserName"
-        tools:text="Rebecca McBath" />
+        tools:text="rdmcbath@outlook.com" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

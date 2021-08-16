@@ -13,5 +13,4 @@ class ApiServiceImpl : ApiService {
             .build()
             .getObjectListSingle(User::class.java)
     }
-
 }

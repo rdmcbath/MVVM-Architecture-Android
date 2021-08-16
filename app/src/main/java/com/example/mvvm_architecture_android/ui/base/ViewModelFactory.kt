@@ -14,5 +14,4 @@ class ViewModelFactory(private val apiHelper: ApiHelper) : ViewModelProvider.Fac
         }
         throw IllegalArgumentException("Unknown class name")
     }
-
 }
